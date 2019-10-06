@@ -13,7 +13,8 @@ class Square():
     def __init__(self, width, height):
         """instantiate the square"""
         if width == height:
-            self.width, self.height = width, height
+            self.width = width
+            self.height = height
 
     def area_of_my_square(self):
         """ to get the area of the square """
@@ -26,6 +27,7 @@ class Square():
     def __str__(self):
         """ printing out the square """
         return "{}/{}".format(self.width, self.height)
+
 
 if __name__ == "__main__":
     s = Square(width=12, height=12)
