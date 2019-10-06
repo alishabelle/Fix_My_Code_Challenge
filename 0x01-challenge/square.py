@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-
+""" building class square """
 
 class square():
+""" creating area and parameter for square output """
 
     width = 0
     height = 0
