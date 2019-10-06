@@ -11,8 +11,7 @@ class Square():
     def __init__(self, width, height):
         """ defining the square """
         if width == height:
-            self.width = width
-            self.height = height
+            self.width, self.height = width, height
 
     def area_of_my_square(self):
         """ Area of the square """
